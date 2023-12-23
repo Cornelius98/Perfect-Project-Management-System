@@ -1,0 +1,33 @@
+$(function(){
+    $(".float-shopping-basket").click(function(){
+        $(".cart-display").slideToggle();
+    });
+    $(".floatin-basket-nav").click(function(){
+        $(".cart-display").slideToggle();
+    });
+    $(".exit-cart").click(function(){
+        $(".cart-display").slideToggle();
+    });
+    $(".exit-cart-2").click(function(){
+        $(".cart-display").slideToggle();
+    });
+    $(".slide-menu").click(function(){
+        $(".slidein-nav").fadeToggle();
+    });
+
+    $(".customer-care").click(function(){
+        $(".customer-care-contacts").slideToggle(1000);
+    });
+    $(".btn-exit-customer-care").click(function(){
+        $(".customer-care-contacts").slideToggle(1000);
+    });
+    $(".customer-care-exit").click(function(){
+        $(".customer-care-contacts").slideToggle(1000);
+    });
+    $(".slidein-menu-dropdown").click(function(){
+        $(this).parent().children('.sort-opts').slideToggle();
+    });
+    $(".slidein-exit").click(function(){
+        $(".slidein-nav").fadeOut();
+    });
+})

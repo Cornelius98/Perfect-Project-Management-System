@@ -1,0 +1,14 @@
+$(function(){
+    $(".slide-menu").click(function(){
+        $(".aside").fadeToggle(1000);
+    });
+    $(".customer-care").click(function(){
+        $(".customer-care-contacts").slideToggle(1000);s
+    });
+    $(".btn-exit-customer-care").click(function(){
+        $(".customer-care-contacts").slideToggle(1000);
+    });
+    $(".customer-care-exit").click(function(){
+        $(".customer-care-contacts").slideToggle(1000);
+    });
+});
