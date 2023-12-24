@@ -29,7 +29,7 @@ Available features include:
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Support](#suport)
+- [Support](#support)
 - [License](#license)
 
 ## Requirements
@@ -70,6 +70,11 @@ The installation procedure to run the project on your local machine is as follow
 - Project resource allocation
 - Project sharing
 - Project discussion room
+- Project daily task recording
+- Project milestone recording
+- Project media resources allocation
+- Project pictures record keeping
+- Project documents record keeping
 
 ## Support
 
